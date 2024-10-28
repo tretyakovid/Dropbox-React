@@ -1,7 +1,9 @@
 # Dropbox-React
 
 ![Image alt](https://github.com/tretyakovid/Dropbox-React/blob/main/localhost_3000_eng.png)
-
+![Image alt](https://github.com/tretyakovid/Dropbox-React/blob/main/localhost_3000_%20(1).png)
+![Image alt](https://github.com/tretyakovid/Dropbox-React/blob/main/localhost_3000_%20(2).png)
+![Image alt](https://github.com/tretyakovid/Dropbox-React/blob/main/localhost_3000_%20(3).png)
 # //
 
 # Getting Started with Create React App
