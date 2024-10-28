@@ -1,0 +1,39 @@
+.about {
+  height: 200vh;
+  background-color: #f7f5f2;
+}
+.content {
+  position: sticky;
+  top: 25%;
+  text-align: left;
+  max-width: 900px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #424244;
+}
+.content span {
+  -webkit-text-fill-color: initial;
+  white-space: nowrap;
+  padding: 5px;
+  font-weight: 600;
+}
+.content span svg {
+  vertical-align: middle;
+  width: 46px;
+  height: 46px;
+}
+@media (max-width: 600px) {
+  .content {
+    font-size: 30px;
+  }
+}
+@media (max-width: 440px) {
+  .content {
+    font-size: 22px;
+  }
+}
+@media (max-width: 340px) {
+  .content {
+    font-size: 18px;
+  }
+}

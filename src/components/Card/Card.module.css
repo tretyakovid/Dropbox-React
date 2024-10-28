@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  color: #1e1919;
+  background-color: #f7f5f2;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.card img {
+  width: 186px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.content {
+  text-align: start;
+  padding: 24px;
+}
+.description {
+  font-size: 15px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.text p {
+  color: rgba(82, 74, 62, 0.82);
+}

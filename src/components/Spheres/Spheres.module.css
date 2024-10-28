@@ -1,0 +1,27 @@
+.spheres {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.heading {
+  color: #1e1919;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 72px;
+  line-height: 120%;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.card_medium {
+  padding: 26px;
+}
+@media (max-width: 950px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .cards img {
+    display: none;
+  }
+}

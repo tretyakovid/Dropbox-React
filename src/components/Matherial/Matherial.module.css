@@ -1,0 +1,29 @@
+.matherial {
+  background-color: #f7f5f2;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.view_link {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  text-align: center;
+  color: #0061fe;
+  font-size: 16px;
+}
+@media (max-width: 950px) {
+  .articles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .articles {
+    grid-template-columns: 1fr;
+  }
+}
